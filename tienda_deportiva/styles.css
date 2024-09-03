@@ -1,0 +1,82 @@
+/* Establecer el color de fondo de la página */
+body {
+    background-color: #f5f5f5;
+}
+
+/* Establecer el color de la fuente */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+    background-color: rgb(245,245,245);
+    align-items: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: maroon;
+}
+
+nav a{
+    font-weight: 600;
+    padding: 15px;
+}
+
+nav a:hover{
+    color: maroon;
+}
+
+
+/* Establecer el estilo de la tabla */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Establecer el estilo de las filas de la tabla */
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Establecer el estilo de las celdas de la tabla */
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Establecer el estilo de los botones */
+input[type="submit"] {
+    background-color: maroon;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Establecer el estilo de los botones al hover */
+input[type="submit"]:hover {
+    background-color: rgb(214, 0, 0);
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
