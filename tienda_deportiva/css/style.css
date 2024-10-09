@@ -10,7 +10,7 @@
 /* Estilo para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('fondo.jpg'); /* Asegúrate de tener una imagen de fondo en la carpeta /images */
+    background-image: url('../images/fondo.jpg'); /* Asegúrate de tener una imagen de fondo en la carpeta /images */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
