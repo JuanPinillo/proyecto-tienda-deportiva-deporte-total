@@ -77,9 +77,9 @@
             <div class="row">
                 <div class="four columns">
                     <nav id="principal" class="menu">
-                        <a class="enlace" href="#">Para tu Negocio</a>
-                        <a class="enlace" href="#">Conviertete en Instructor</a>
-                        <a class="enlace" href="#">Aplicaciones Móviles</a>
+                        <a class="enlace" href="#">Inicio</a>
+                        <a class="enlace" href="#">Productos</a>
+                        <a class="enlace" href="#">Insagram</a>
                         <a class="enlace" href="#">Soporte</a>
                         <a class="enlace" href="#">Temas</a>
                     </nav>
