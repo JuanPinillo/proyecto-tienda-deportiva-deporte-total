@@ -16,7 +16,5 @@ if ($result->num_rows > 0) {
         echo '    <td>'.$row['cantidad'].'</td>';
         echo '</tr>';
     }
-} else {
-    echo "El carrito está vacío.";
-}
+} 
 ?>
