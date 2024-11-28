@@ -89,6 +89,8 @@
                         <a class="enlace" href="#">¿Quienes Somos?</a>
                         <a class="enlace" href="#">Empleo</a>
                         <a class="enlace" href="#">Blog</a>
+                        <a href="cerrar_sesion.php">Cerrar Sesion</a>
+                        <a href="index.html">Inicio</a>
                     </nav>
                 </div>
             </div>
