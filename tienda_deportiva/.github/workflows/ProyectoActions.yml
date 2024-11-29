@@ -2,7 +2,8 @@ name: ProyectoActions
 
 on: 
   push:
-    branches: [ Arcila24 ]
+    branches:
+      - '*'
     
 jobs:
   build:
@@ -13,4 +14,4 @@ jobs:
       uses: actions/checkout@v4
 
     - name: Print a message
-      run: echo "Funciona Actions"
+      run: echo "Funciona Actions en cualquier rama"
