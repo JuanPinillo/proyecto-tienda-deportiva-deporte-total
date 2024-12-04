@@ -29,7 +29,12 @@ jobs:
       run: |
         cd tienda_deportiva
         npm install
-
+        
+    - name: Run Stylelint
+      run: |
+        cd tienda_deportiva 
+        npx stylelint "**/*.css" --fix  
+        
     - name: Run JavaScript linter
       run: |
         cd tienda_deportiva
@@ -39,3 +44,4 @@ jobs:
       run: |
         cd tienda_deportiva
         npm run lint:css
+        
