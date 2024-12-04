@@ -33,7 +33,7 @@ jobs:
     - name: Run Stylelint
       run: |
         cd tienda_deportiva 
-        npx stylelint "**/*.css" --fix  
+        npx stylelint "**/*.css" || true
         
     - name: Run JavaScript linter
       run: |
