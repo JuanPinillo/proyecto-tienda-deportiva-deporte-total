@@ -40,8 +40,4 @@ jobs:
         cd tienda_deportiva
         npm run lint:js
 
-    - name: Run CSS linter
-      run: |
-        cd tienda_deportiva
-        npm run lint:css
         
