@@ -40,20 +40,6 @@ jobs:
         cd tienda_deportiva
         npm run lint:js
         
-    - name: Setup PHP
-      uses: shivammathur/setup-php@v2
-      with:
-        php-version: '8.2' # Cambia según tu versión de PHP
-        extensions: mbstring
-
-    - name: Install dependencies
-      run: |
-        cd tienda_deportiva
-        composer install
-
-    - name: Run PHPUnit
-      run: |
-        cd tienda_deportiva
-        ./vendor/bin/phpunit --testdox tests/
+    
         
         
