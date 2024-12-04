@@ -54,6 +54,6 @@ jobs:
     - name: Run PHPUnit
       run: |
         cd tienda_deportiva
-        ./vendor/bin/phpunit
+        ./vendor/bin/phpunit --testdox tests/
         
         
