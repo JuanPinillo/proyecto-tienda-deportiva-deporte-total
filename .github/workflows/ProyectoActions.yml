@@ -15,3 +15,17 @@ jobs:
 
     - name: Print a message
       run: echo "Funciona Actions en cualquier rama"
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 16
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Run JavaScript linter
+      run: npm run lint:js
+
+    - name: Run CSS linter
+      run: npm run lint:css
